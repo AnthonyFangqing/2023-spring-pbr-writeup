@@ -38,3 +38,8 @@ Let's look there in the raw data we downloaded. Unzip the file and look for xl/s
 ![image](https://github.com/AnthonyFangqing/2023-spring-pbr-writeup/assets/77250066/67e2de5f-7f74-4ab1-9bfb-1e54e4c784ef)
 
 Oh. That was easy
+
+## Less Scuffed Way
+binwalk the file, remove all the bad data [https://github.com/ReFirmLabs/binwalk]
+Then, repackage the resulting files and open it normally as an Excel file.
+
